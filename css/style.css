@@ -33,7 +33,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background: #fff;
+    background: #eed2858a;
     border-radius: 5rem;
 }
 
@@ -82,6 +82,13 @@ section{
     position: fixed;
     top:0; left: 0; right: 0;
     z-index: 1000;
+}
+
+/*sign in log in */
+
+.header ul{
+    display: flex;
+    
 }
 
 .header .logo img{
@@ -204,6 +211,8 @@ section{
     text-align: center;
 }
 
+/* home section start */
+
 .home{
     min-height: 100vh;
     display: flex;
@@ -246,6 +255,7 @@ section{
     background-color: #f1f1f1;
   }
   
+/* about section start */
 
 .about .row{
     display: flex;
@@ -277,6 +287,8 @@ section{
     padding:1rem 0;
     line-height: 1.8;
 }
+
+/*review section start */
 
 .review .box-container{
     display: grid;
@@ -364,6 +376,7 @@ section{
     background:none;
 }
 
+/*blog section start*/
 
 .blogs .box-container{
     display: grid;
@@ -472,6 +485,8 @@ section{
     color:#ccc;
     padding:1rem 0;
 }
+
+/* footer section start */
 
 .footer{
     background:var(--black);
