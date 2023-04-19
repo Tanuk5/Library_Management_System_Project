@@ -88,6 +88,33 @@ section{
     height: 9rem;
 }
 
+.navbar.active {
+    max-height: calc(100vh - 63px);
+    visibility: visible;
+    transition-duration: 0.5s;
+}
+
+
+.nav-toggle-btn .line {
+    width: 26px;
+    height: 3px;
+    background-color: var(--white);
+    transition: var(--transition-1);
+  }
+  
+  .nav-toggle-btn .line:not(:last-child) { margin-block-end: 4px; }
+  
+  .nav-toggle-btn {
+    padding: 8px 5px;
+    margin-inline-start: auto;
+  }
+  
+  .nav-toggle-btn.active .line-1 { transform: rotate(45deg) translate(5px, 6px); }
+  
+  .nav-toggle-btn.active .line-2 { opacity: 0; }
+  
+  .nav-toggle-btn.active .line-3 { transform: rotate(-45deg) translate(4px, -5px); }
+  
 .header .navbar a{
     margin:0 1rem;
     font-size: 1rem;
